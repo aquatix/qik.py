@@ -8,5 +8,5 @@ def not_found(error):
     return render_template('404.html'), 404
 
 
-from flask_website import utils
-from flask_website import filters
+from qik_website import utils
+from qik_website import filters
