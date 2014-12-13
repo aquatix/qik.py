@@ -1,5 +1,14 @@
-from flask import Blueprint, render_template, session, redirect, url_for, \
-    request, flash, g, jsonify, abort
+from flask import (
+    Blueprint,
+    render_template,
+    session,
+    redirect,
+    url_for,
+    request,
+    flash,
+    g,
+    jsonify,
+    abort)
 
 
 mod = Blueprint('general', __name__)
